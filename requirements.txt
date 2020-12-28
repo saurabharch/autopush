@@ -60,3 +60,5 @@ ua-parser==0.8.0
 urllib3==1.23             # via botocore, requests
 wsaccel==0.6.2 ; platform_python_implementation == "CPython"
 zope.interface==4.5.0
+
+autobahn>=20.12.3 # not directly required, pinned by Snyk to avoid a vulnerability
