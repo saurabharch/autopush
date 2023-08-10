@@ -35,7 +35,7 @@ google-cloud-storage==1.25.0  # via firebase-admin
 google-resumable-media==0.5.0  # via google-cloud-storage
 googleapis-common-protos==1.51.0  # via google-api-core
 graphviz==0.13.2          # via objgraph
-grpcio==1.27.2            # via google-api-core
+grpcio==1.53.2            # via google-api-core
 h2==2.6.2                 # via hyper
 hpack==3.0.0              # via h2
 httplib2==0.19.0          # via google-api-python-client, google-auth-httplib2, oauth2client
