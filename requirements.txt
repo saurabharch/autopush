@@ -15,7 +15,7 @@ configargparse==1.0
 configparser==4.0.2       # via datadog
 constantly==15.1.0        # via twisted
 contextlib2==0.6.0.post1  # via raven
-cryptography==3.3.2
+cryptography==41.0.6
 cyclone==1.2
 datadog==0.37.1
 decorator==4.4.1          # via datadog
@@ -80,3 +80,5 @@ zope.interface==4.7.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+twisted>=23.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
